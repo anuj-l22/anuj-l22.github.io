@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Anuj Lalla">
+  <meta name="description" content="Research-oriented and coursework projects by Anuj Lalla in computer vision, multimodal learning, generative AI, and machine learning.">
+  <title>Projects | Anuj Lalla</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <div class="site-toolbar">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <span aria-hidden="true">/</span>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <span aria-hidden="true">/</span>
+        <a href="beyond-research.html">Beyond Research</a>
+      </nav>
+      <label class="theme-toggle" hidden>
+        <input type="checkbox" id="theme-toggle">
+        <span>Dark mode</span>
+      </label>
+    </div>
+
+    <main id="main" class="projects-main">
+      <header class="page-heading">
+        <h1>Projects</h1>
+      </header>
+      <section aria-labelledby="selected-heading">
+        <h2 id="selected-heading">Selected Projects</h2>
+        <div class="project-list">
+          <article class="project-row" id="deepfake-interpretability">
+            <figure class="project-figure"><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/MAP7020_Applied_ML_Lab" target="_blank" rel="noopener noreferrer"><img src="images/deepfake-interpretability.jpg" alt="Input image and Token-CAM heatmap from the SID-Set deepfake detection study" width="720" height="480" loading="lazy"></a></figure>
+            <div>
+              <h3><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/MAP7020_Applied_ML_Lab" target="_blank" rel="noopener noreferrer">Interpreting Deepfake Detection on SID-Set</a></h3>
+              <p class="project-meta">January-April 2026</p>
+              <p>Benchmarked frozen CLIP, DINOv2, and SigLIP; a CLIP linear probe achieved <strong>90.0% macro-F1</strong>. Investigated detection cues with SHAP, Token-CAM, and layer-wise probing, and compared five sparse-autoencoder variants on SIDA-7B embeddings using ablation and causal steering.</p>
+              <p>Mapped confidence-stratified and adversarial failure modes, including <strong>12.7% accuracy</strong> on the lowest-confidence 20% of tampered evaluation images.</p>
+              <p class="resource-links"><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/MAP7020_Applied_ML_Lab" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            </div>
+          </article>
+          <article class="project-row project-row-text" id="clalm">
+            <div>
+              <h3><a href="https://github.com/anuj-l22/CLALM_FMGAI_Project_Group_21" target="_blank" rel="noopener noreferrer">CLALM: Continual Multilingual Visual Question Answering</a></h3>
+              <p class="project-meta">August-November 2025</p>
+              <p>Developed a continual multilingual VQA pipeline with <strong>Qwen3-VL-2B and LoRA</strong> on ALM-Bench across 12 languages. Compared sequential fine-tuning with online EWC under clustered, interleaved, and randomized language orders.</p>
+              <p>Evaluated accuracy, exact match, and token-level F1 by language and question type, with a Gradio demonstration for comparing trained adapters.</p>
+              <p class="resource-links"><a href="https://github.com/anuj-l22/CLALM_FMGAI_Project_Group_21" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            </div>
+          </article>
+          <article class="project-row" id="controlnet">
+            <figure class="project-figure"><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/AIL7490_MMLVL" target="_blank" rel="noopener noreferrer"><img src="images/controlnet.jpg" alt="Conditioning images and generated outputs from the ControlNet reproduction" width="720" height="480" loading="lazy"></a></figure>
+            <div>
+              <h3><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/AIL7490_MMLVL" target="_blank" rel="noopener noreferrer">ControlNet Reproduction and Spatially Conditioned Generation</a></h3>
+              <p class="project-meta">March-April 2026</p>
+              <p>Reproduced <strong>ControlNet over frozen Stable Diffusion 1.5</strong>, implementing zero convolutions, the conditioning encoder, a trainable UNet encoder copy, and skip-connection injection from scratch.</p>
+              <p>Trained on Fill50K; evaluated FID, CLIP Score, and PSNR, and investigated encoder-freezing configurations and the onset of conditioning.</p>
+              <p class="resource-links"><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/AIL7490_MMLVL" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="home-section" aria-labelledby="coursework-heading">
+        <div class="section-heading">
+          <h2 id="coursework-heading">Coursework and Explorations</h2>
+          <a href="https://github.com/anuj-l22/IITJ_Course_Projects" target="_blank" rel="noopener noreferrer" aria-label="IITJ Course Projects on GitHub">GitHub</a>
+        </div>
+        <div class="coursework-list">
+          <article><h3><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/CSL7530_Advanced_ML" target="_blank" rel="noopener noreferrer">Advanced Machine Learning</a></h3><p class="project-meta">January-April 2026</p><p>NumPy gradient boosting; Gaussian-process regression and Laplace classification; VAEs and conditional VAEs; actor-critic PPO with GAE, seed comparisons, and KL diagnostics.</p></article>
+          <article><h3><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/AIL7390_DL4NLP" target="_blank" rel="noopener noreferrer">Cross-Lingual Embeddings and Neural Machine Translation</a></h3><p class="project-meta">January-April 2026</p><p>Sanskrit-English alignment with BGE-M3, Qwen3-Embedding, and Jina using symmetric InfoNCE; Matryoshka-style truncation and learned projection heads; MarianMT versus ByT5 with BLEU, BERTScore, and efficiency analysis.</p></article>
+          <article><h3><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/AIL7370_DL4CV" target="_blank" rel="noopener noreferrer">Vision Architectures and Experimentation</a></h3><p class="project-meta">January-April 2026</p><p>ConvLSTM, Siamese networks, Transformers, and ViT; Faster R-CNN versus DETR on PASCAL VOC; TransUNet segmentation; model/GPU parallelism studies and Weights &amp; Biases experiment tracking.</p></article>
+          <article>
+            <h3><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/CSL7860_Foundation_Models_GenAI" target="_blank" rel="noopener noreferrer">Foundation Models and Generative AI Assignments</a></h3>
+            <p class="project-meta">August-November 2025</p>
+            <p>Built an MCP-based multi-agent paper reviewer with schema and citation checks; implemented SISA unlearning with shard/slice retraining and membership-inference evaluation.</p>
+            <p>Compared MambaVision, ViT, and ConvNeXt under ImageNet-R shift; tested LLMs with noisy prompts and long-context retrieval; explored ControlNet/MusicGen generation and designed IllusionScore for image evaluation.</p>
+          </article>
+          <article><h3><a href="https://github.com/anuj-l22/IITJ_Course_Projects/tree/main/CSL7870_Learning_on_Graphs" target="_blank" rel="noopener noreferrer">Graph Representation Learning</a></h3><p class="project-meta">August-November 2025</p><p>GraphSAGE and multi-head GAT on Cora, feature compression, and oversmoothing; Graph2Vec-style embeddings with Weisfeiler-Lehman refinements, anonymous walks, and Doc2Vec; message-passing and structural-equivalence analysis.</p></article>
+        </div>
+        <p class="coursework-note">More projects, detailed descriptions, and code links can be found in my <a href="data/Anuj_Lalla_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>.</p>
+      </section>
+      <p class="back-home"><a href="index.html" target="_self">Back to Home</a></p>
+    </main>
+
+    <footer class="site-footer">
+      <p>Design adapted from <a href="https://github.com/jonbarron/jonbarron.github.io" target="_blank" rel="noopener noreferrer">Jon Barron's website</a>.</p>
+      <p>Updated October 2026</p>
+    </footer>
+  </div>
+</body>
+</html>

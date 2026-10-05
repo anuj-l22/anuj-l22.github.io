@@ -1,0 +1,13 @@
+.env
+.env.*
+*.tex
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*Transcript*
+main.pdf
+Thumbs.db
+.DS_Store
